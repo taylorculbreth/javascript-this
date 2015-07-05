@@ -1,0 +1,23 @@
+#blue-row{
+	background-color: lightblue;
+	width: 100%;
+	opacity: .85;
+	text-align: center;	
+	padding: 0px;
+	margin: 0px;
+}
+#green-row{
+	background: limegreen;
+	opacity: .85;
+	text-align: center;	
+	padding: 0px;
+	margin: 0px;
+}
+.col-md-offset-3{
+	background-color: gray;
+	height: 100%;
+}
+#blue-cells{
+	border: 1px solid black;
+	height: 100%;
+}
