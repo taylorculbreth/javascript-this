@@ -12,8 +12,8 @@
 			</div>
 			<div class="fluid-container">
 				<div class="row" id="blue-row">
-					<div class="col-md-4" id="blue-cells">
-						<p>something cool here</p>
+					<div class="col-md-4 globalThisBtn" id="blue-cells">
+						<p>JavaScript this being used Globally</p>
 					</div>
 					<div class="col-md-4" id="blue-cells">
 						<p>something else cool here</p>
@@ -27,7 +27,37 @@
 						<p>This column is offset and coool</p>
 					</div>
 				</div>
+				<div class="row">
+					<div class="col-mid-3 btn btn-primary" id="globalThisBtn">
+						this-Global context
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-Simple call
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-As an object method
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-as a constructor
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-mid-3 btn btn-primary">
+						this-<i>call</i> and <i>apply</i>
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-<i>bind</i>
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-As a DOM event handler
+					</div>
+					<div class="col-mid-3 btn btn-primary">
+						this-In an in-line event handler
+					</div>
+				</div>
 			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="this.js"></script>
 	</body>	
 </html>
