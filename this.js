@@ -46,4 +46,12 @@
 	}, function(){
 		$(".thisInLineEventHandler").css("background-color", "purple");
 	});
+	
+	var thisInLineEventHandlerClick = function(){
+		alert('You clicked in-line event handler!');
+	};
+	
+	$('#thisInLineEventHandler').click(function(){
+		thisInLineEventHandlerClick();
+		});
 })();
