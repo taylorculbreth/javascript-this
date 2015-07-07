@@ -54,4 +54,18 @@
 	$('#thisInLineEventHandler').click(function(){
 		thisInLineEventHandlerClick();
 		});
+	var globalThisBtnClick = function(){
+		if(this === window){
+			$(".globalThisBtn").append("<p>This === " + this + " </p>");
+			$(".globalThisBtn").append("<img src='pictures/globalThis.png' id='globalThisCode' />");
+		}
+		else{
+			alert('Something went wrong!!');
+		}
+	};
+	
+	$('#globalThisBtn').click(function(){
+		globalThisBtnClick();
+		});
+		
 })();
